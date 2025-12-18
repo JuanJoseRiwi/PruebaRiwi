@@ -35,6 +35,7 @@
     --body-color: #F3F3F3;
 }
 
+
 html {
     scroll-behavior: smooth;
 }
@@ -43,6 +44,7 @@ body {
     font-family: SpaceGrotesk;
     background-color: white;
 }
+
 
 .navbar {
     position: relative;
@@ -114,6 +116,7 @@ body {
     gap: 10;
 }
 
+
 .anim-layer {
     position: absolute;
     top: 0;
@@ -141,6 +144,18 @@ body {
     position: relative;
     z-index: 1;
 }
+.mb-4 {
+  margin-bottom: revert-layer;
+  text-align: center;
+}
+.mb-5 {
+  margin-bottom: 3rem !important;
+  text-align: center;
+}
+  .col-lg-2 {
+    flex: 0 0 auto;
+    width: 14%;
+  }
 
 #hamburger-menu,
 #mobile-menu {
@@ -286,6 +301,7 @@ body {
     background-color: #4caf4f
 }
 
+
 .hero-section .hero-content h1 {
     font-size: 60px;
     font-weight: 500;
@@ -294,6 +310,7 @@ body {
 .hero-section .hero-content p {
     font-size: 20px;
     font-weight: 400;
+    background: f5f7fa;
 }
 
 /* Services Sectin Start */
