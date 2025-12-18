@@ -175,6 +175,22 @@ body {
     flex-direction: row-reverse;
 }
 
+.hero-design a {
+  padding: 20px 35px;
+  color: var(--body-color);
+  border-radius: 10px;
+  text-decoration: none;
+  background-color: #4caf4f;
+}
+.hero-design{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+.hero-helping{
+    padding: 100px;
+}
 
 @media only screen and (max-width: 1052px) {
     #mobile-menu {
@@ -548,9 +564,7 @@ footer .social-icons a{
     background-color: white;
 }
 
-footer .social-icons a i {
-    /* padding: 20px; */
-}
+
 
 footer .subscription {
     padding: 60px 30px;
@@ -572,3 +586,4 @@ footer .subscription input[type='submit'] {
 footer .footer-info {
     border-bottom: 2px solid var(--body-color);
 }
+
