@@ -192,6 +192,22 @@ body {
     padding: 100px;
 }
 
+
+.hero-TimSmith {
+     display: flex;
+    flex-direction: row-reverse;
+    padding: 150px;
+    text-align: left;
+}
+
+.hero-TimSmith a {
+  padding: 20px 35px;
+  color: #4CAF4F;
+;
+  text-decoration: none;
+  text-align: left;
+}
+
 @media only screen and (max-width: 1052px) {
     #mobile-menu {
         background-color: var(--primary-color);
