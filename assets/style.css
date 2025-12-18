@@ -587,3 +587,93 @@ footer .footer-info {
     border-bottom: 2px solid var(--body-color);
 }
 
+.navbar {
+padding: 15px;
+}
+.nav-items {
+display: none;
+}
+#hamburger-menu {
+display: block;
+font-size: 28px;
+cursor: pointer;
+}
+.nav-button {
+display: none;
+}
+.hero-content {
+text-align: center;
+}
+.hero-content h1 {
+font-size: 28px;
+}
+.hero-content p {
+font-size: 16px;
+}
+.button {
+width: 100%;
+}
+.manage {
+display: flex;
+flex-direction: column;
+
+gap: 20px;
+}
+.single-system {
+text-align: center;
+}
+
+@media (min-width: 768px) {
+.hero-content h1 {
+font-size: 36px;
+}
+.hero-content p {
+font-size: 18px;
+}
+.manage {
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+}
+.single-system {
+width: 45%;
+}
+#hamburger-menu {
+display: block;
+}
+.nav-items {
+display: none;
+}
+}
+
+@media (min-width: 1024px) {
+
+#hamburger-menu {
+display: none;
+}
+.nav-items {
+display: block;
+}
+.nav-items ul {
+display: flex;
+gap: 25px;
+}
+.nav-button {
+display: block;
+}
+.hero-content {
+text-align: left;
+}
+.hero-content h1 {
+font-size: 48px;
+}
+.button {
+width: auto;
+}
+.manage {
+justify-content: space-between;
+}
+.single-system {
+width: 30%;
+}
+}
