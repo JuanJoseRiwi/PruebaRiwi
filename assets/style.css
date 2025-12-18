@@ -157,6 +157,7 @@ body {
     width: 14%;
   }
 
+
 #hamburger-menu,
 #mobile-menu {
     display: none;
@@ -316,20 +317,26 @@ body {
 /* Services Sectin Start */
 
 .services .services-card.services-card-one, .services .services-card.services-card-two {
-    background-color: var(--body-color);
+    
     border: 1px solid var(--secondary-color);
     border-bottom: 3px solid var(--secondary-color);
     border-radius: 25px;
     padding: 25px;
 }
+  .mb-6 {
+  margin-bottom: 5rem !important;
+  text-align: center;
+}
 
 .services .heading > h2, .working-process .heading > h2, .contact-us .heading > h2 {
     font-size: 24px;
-    background-color: var(--primary-color);
+    text-align: center;
     line-height: 1;
     height: 40px;
     border-radius: 10px;
     padding: 7px;
+    margin-bottom: 5rem;
+    
 }
 
 .services .services-card.services-card-two {
