@@ -163,6 +163,19 @@ body {
     display: none;
 }
 
+.password a {
+  padding: 20px 35px;
+  color: var(--body-color);
+  border-radius: 10px;
+  text-decoration: none;
+  background-color: #4caf4f;
+}
+.password{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
 @media only screen and (max-width: 1052px) {
     #mobile-menu {
         background-color: var(--primary-color);
@@ -324,7 +337,6 @@ body {
     padding: 25px;
 }
   .mb-6 {
-  margin-bottom: 5rem !important;
   text-align: center;
 }
 
@@ -338,37 +350,54 @@ body {
     margin-bottom: 5rem;
     
 }
-
-.services .services-card.services-card-two {
-    background-color: var(--primary-color);
-    /* padding: 34px 25px; */
+.text-h2{
+    text-align: center;
+    padding: 20px;
 }
 
-.services .services-card a i{
-    color: var(--primary-color);
-    background-color: var(--secondary-color);
-    width: 30px;
-    height: 30px;
-    border-radius: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 10px;
-    transition: all 0.3s ease-in-out;
+.manage {
+    display: grid; /* Activa CSS Grid */
+    grid-template-columns: 1fr 1fr 1fr; /* Dos columnas de igual tamaño */
+    gap: 1rem; /* Espacio de 2rem entre columnas */
+    align-items: start; /* Centra verticalmente los elementos del grid */
+    background-color: #ffffff;
 }
 
-.services .services-card:hover a i {
-    rotate: -30deg;
+
+
+.single-system {
+    flex: 1; /* Ocupa todo el espacio disponible */
+    display: flex; /* Activa flexbox */
+    align-items: flex-start; /* Centra verticalmente el contenido */
+    justify-content: flex-start; /* Centra horizontalmente el contenido */
+    margin-left: 150px;
+    margin-top: 150px;
+    margin-right: 150px;
 }
 
-.services-card img {
-    width: 100%;
-    height: 180px;
+.single-system-content {
+    text-align: center; /* Centra el texto */
+    margin-bottom: 10rem; /* Margen inferior de 10rem */
+}
+
+h4 {
+    font-size: rem; /* Tamaño de fuente de 3rem (48px aprox) */
+    font-weight: 600; /* Peso de fuente semi-negrita */
+    margin-bottom: 2rem; /* Margen inferior de 2rem */
+    color: #4D4D4D;
+}
+
+.single-system-content p {
+    font-size: 3rem; 
+    font-weight: 500;
+    margin-bottom: 2rem; /* Margen inferior de 2rem */
+    color: #717171;
 }
 .row {
   --bs-gutter-x: 12rem;
   --bs-gutter-y: 0;
 }
+
 
 @media only screen and (max-width: 1000px) {
     .services-card img {
