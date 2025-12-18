@@ -207,6 +207,20 @@ body {
   text-decoration: none;
   text-align: left;
 }
+.ultimo-p{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 200px;
+    text-align: left;
+}
+.ultimo-p a {
+  padding: 20px 35px;
+  color: #4CAF4F;
+;
+  text-decoration: none;
+  text-align: left;
+}
+
 
 @media only screen and (max-width: 1052px) {
     #mobile-menu {
@@ -563,11 +577,13 @@ input[type="radio"] {
 
 /* Footer Start */
 
+
+
 footer .row {
-    background-color: var(--secondary-color);
-    border-top-right-radius: 40px;
-    border-top-left-radius: 40px;
+background: #263238;
+    
 }
+
 
 footer .social-icons a{
     display: flex;
